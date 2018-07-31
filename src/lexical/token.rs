@@ -19,7 +19,4 @@ pub enum TokenType {
     // Keywords
     VAR, CLASS, IF, WHILE, FOR, ELSE, FN, NIL, PRINT,
     RETURN, SUPER, THIS, TRUE, FALSE, EOF, OR, AND, 
-
-    // Error
-    ERR(String)
 }

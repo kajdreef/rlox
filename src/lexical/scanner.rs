@@ -134,8 +134,9 @@ impl Scanner {
                     ' ' => self.next_token(),
                     '\r' => self.next_token(),
                     '\t' => self.next_token(),
-                    _ => {
-                        Some(ERR(format!("Unrecognized character on line: {}", self.line_number)))
+                    random_char => {
+                        error!("Unrecognized character  {}", random_char);
+                        self.next_token()
                     }
                 }
             }
