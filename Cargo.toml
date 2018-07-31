@@ -1,0 +1,8 @@
+[package]
+name = "rlox"
+version = "0.1.0"
+authors = ["Kaj <kaj.dreef@gmail.com>"]
+
+[dependencies]
+log = "0.4"
+env_logger = "0.5"

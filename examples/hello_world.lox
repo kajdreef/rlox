@@ -1,0 +1,2 @@
+// Hello this should be skipped
+print "Hello, world!";
